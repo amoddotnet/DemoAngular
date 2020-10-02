@@ -10,6 +10,9 @@ $ ssh-keygen -t rsa -b 4096 -C "amoddotnet@gmail.com"
 $ gti push origin master --first initialized the authentication key
 $ cat /c/Users/DELL/.ssh/id_rsa.pub --generate key
 $ git clone https://github.com/amoddotnet/DemoAngular
+$ git checkout -b feature/TestDemoAngular --Checkout and create a new feature branch
+$ git checkout feature/TestDemoAngular2 --checkout to another already feature branch
+
 
 
 
