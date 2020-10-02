@@ -25,6 +25,14 @@ $ touch waste.html ---Create new files in working directory
 $ git rm --cached waste.html --Remove file from staging area(make untracked file)
 $ git rm waste.html --remove file parmanantly form working area
 $ q ---Quit/Terminate the current process
+$ git branch feature1 ---Create new branch
+$ $ git branch -- Show all existing branch
+$ git checkout master --Switch to master branch from Feature/TestDemoAngular branch
+$ git merge origin feature/TestDemoAngular ---
+
+
+
+
 
 
 
