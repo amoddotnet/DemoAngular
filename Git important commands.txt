@@ -14,9 +14,12 @@ $ ls -lart --Listing of all files
 $ git clone https://github.com/amoddotnet/DemoAngular --Set up first time to get all data from repository and intilized local repository
 $ git checkout -b feature/TestDemoAngular --Checkout and create a new feature branch
 $ git checkout feature/TestDemoAngular2 --checkout to another already feature branch
-$ git checkout -a -- To discard changes of all files in working director and get prvious stage of file.
+$ git checkout -f -- To discard changes of all files in working director and get prvious stage of file.
 $ git checkout --<file> --To discard changes in working directory and get previous stage of file
-
+$ git log ---Show all commited log 
+$ git log -p -1 --To specify how many log files want to view 
+$ git diff --To get differences between commited file and change file of all files
+$ git diff -- staged --to comapare with last staged/add file
 
 
 
