@@ -22,8 +22,9 @@ $ git diff --To get differences between commited file and change file of all fil
 $ git diff -- staged --to comapare with last staged/add file
 $ ls --Listing all files and folders
 $ touch waste.html ---Create new files in working directory
-$ git rm --cached waste.html --Remove file from staging area
+$ git rm --cached waste.html --Remove file from staging area(make untracked file)
 $ git rm waste.html --remove file parmanantly form working area
+$ q ---Quit/Terminate the current process
 
 
 
