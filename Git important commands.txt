@@ -1,0 +1,15 @@
+$ git config --global user.name Amod
+$ git config --global user.email "amoddotnet@gmail.com"
+$ touch .gitignore
+$ git init ---Initialized empty Git repository in E:/angulardemo/.git/
+$ git add . --puting conent in staging area
+$ git commit -m "initial setup project" --create snapshot in local repository
+$ git status --Show change status of files
+$ git remote add origin git@github.com:amoddotnet/DemoAngular.git --Attached/link local respository to Github repository
+$ ssh-keygen -t rsa -b 4096 -C "amoddotnet@gmail.com"
+$ gti push origin master --first initialized the authentication key
+$ cat /c/Users/DELL/.ssh/id_rsa.pub --generate key
+$ git clone https://github.com/amoddotnet/DemoAngular
+
+
+
