@@ -1,17 +1,21 @@
-$ git config --global user.name Amod
+$ git config --global user.name Amod --Setup user and email to use git
 $ git config --global user.email "amoddotnet@gmail.com"
-$ touch .gitignore
+$ touch .gitignore --Set list of file which will not part of git files
 $ git init ---Initialized empty Git repository in E:/angulardemo/.git/
-$ git add . --puting conent in staging area
+$ git add ./add -A --puting conent in staging area
+$ git restore <file>..." to discard changes in working directory
 $ git commit -m "initial setup project" --create snapshot in local repository
-$ git status --Show change status of files
+$ git status --Show changes status of files
 $ git remote add origin git@github.com:amoddotnet/DemoAngular.git --Attached/link local respository to Github repository
 $ ssh-keygen -t rsa -b 4096 -C "amoddotnet@gmail.com"
 $ gti push origin master --first initialized the authentication key
 $ cat /c/Users/DELL/.ssh/id_rsa.pub --generate key
-$ git clone https://github.com/amoddotnet/DemoAngular
+$ git clone https://github.com/amoddotnet/DemoAngular --Set up first time to get all data from repository and intilized local repository
 $ git checkout -b feature/TestDemoAngular --Checkout and create a new feature branch
 $ git checkout feature/TestDemoAngular2 --checkout to another already feature branch
+$ ls -lart --Listing of all files
+$ git checkout --<file> --To discard changes in working directory
+
 
 
 
